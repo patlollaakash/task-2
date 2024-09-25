@@ -1,0 +1,43 @@
+.highlight{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-family: "Play";
+    font-weight: 1000;
+}
+.normal-text{
+    font-size: 2.5rem;
+    font-family: "Play";
+    font-weight: 1000;
+
+}
+.navbar-expand-sm .navbar-nav {
+    flex-direction: row;
+    color: white !important;
+
+}
+
+.nav-item {
+    margin-right: 15px; /* Adjust the gap between each item */
+    position: relative;
+    font-size: 1rem;
+  }
+  
+  .nav-item::after {
+    content: "|"; /* The vertical line */
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff; /* Adjust the color of the vertical line */
+  }
+  .navbar-expand-sm .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+}
+
+  
+  .nav-item:last-child::after {
+    content: ""; /* Remove vertical line for the last item */
+  }
+  
